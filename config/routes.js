@@ -45,9 +45,9 @@ module.exports = () => {
     |--------------------------------------------------------------------------
     |
     */
-    const earn = require('../app/routes/api/user');
+    // const user = require('../app/routes/api/user');
 
-    router.use('/api/user/', earn);
+    // router.use('/api/user/', user);
 
     /*
     |--------------------------------------------------------------------------
