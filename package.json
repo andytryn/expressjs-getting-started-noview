@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-getting-started-noview",
+  "version": "0.0.1",
+  "description": "A template Node.js app using ExpressJS",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andytryn/nodejs-getting-started-noview"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express"
+  ],
+  "author": {
+    "name": "Andi Triyanto",
+    "web": "https://github.com/andytryn"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-robots": "^0.1.6",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "http-errors": "^2.0.0",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.7",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.7.2"
+  }
+}
