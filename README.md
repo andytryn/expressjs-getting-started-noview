@@ -14,6 +14,41 @@ $ npm start
 ```
 Your app should now be running on [`localhost:5000`](http://localhost:5000/).
 
+## Structure
+```
+project
+├── app
+│   ├── controllers
+│   │   ├── api
+│   │   │   └── example.js
+│   │   └── example.js
+│   │
+│   ├── public
+│   │   ├── javascript
+│   │   └── stylesheets
+│   │       └── example.css
+│   │
+│   ├── routes
+│   │   ├── api
+│   │   │   └── example.js
+│   │   └── example.js
+│   │
+│   ├── services
+│       └── example.js
+│
+├── bin
+│   └── www <-- HTTP server runner
+│
+├── config
+│   ├── config.json <-- General configurations file
+│   └── routes.js <-- General routes
+│
+├── main.js <-- Main app file
+├── tests.js < -- Tests file
+├── Procfile < -- Heroku Support
+└── package.json
+```
+
 ## Make from scratch
 
 ```sh
