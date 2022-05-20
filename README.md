@@ -17,7 +17,14 @@ Your app should now be running on [`localhost:5000`](http://localhost:5000/).
 ## Structure
 ```
 project
-├── app
+├── bin
+│   └── www <-- HTTP server runner
+│
+├── config
+│   ├── config.json <-- General configurations file
+│   └── routes.js <-- General routes
+│
+├── src
 │   ├── controllers
 │   │   ├── api
 │   │   │   └── example.js
@@ -35,13 +42,6 @@ project
 │   │
 │   └── services
 │       └── example.js
-│
-├── bin
-│   └── www <-- HTTP server runner
-│
-├── config
-│   ├── config.json <-- General configurations file
-│   └── routes.js <-- General routes
 │
 ├── main.js <-- Main app file
 ├── tests.js < -- Tests file
