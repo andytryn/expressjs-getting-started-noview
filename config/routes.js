@@ -28,9 +28,9 @@ module.exports = () => {
     |--------------------------------------------------------------------------
     |
     */
-    // const auth = require('../app/routes/auth');
-    // const register = require('../app/routes/register');
-    const index = require('../app/routes/index');
+    // const auth = require('../src/routes/auth');
+    // const register = require('../src/routes/register');
+    const index = require('../src/routes/index');
 
     // if (CONFIG.AUTH.ENABLED) {
     //     router.use(auth);
@@ -45,7 +45,7 @@ module.exports = () => {
     |--------------------------------------------------------------------------
     |
     */
-    // const user = require('../app/routes/api/user');
+    // const user = require('../src/routes/api/user');
 
     // router.use('/api/user/', user);
 
